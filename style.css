@@ -12,6 +12,7 @@ html {
     font-size: 62.5%;
     font-family: 'Comfortaa', sans-serif;
 }
+
 /* Header Section */
 
 .nav{
@@ -36,6 +37,8 @@ nav div a img{
 /* Main section */
 
 #inicio{
+    display: flex;
+    flex-direction: row;
     background-image: url(imagenes/fondo-main.jpg);
     background-size: cover;
     background-position: center top;
@@ -51,7 +54,7 @@ nav div a img{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .5;
+    opacity: .3;
     z-index: -1;
 }
 
@@ -59,7 +62,7 @@ nav div a img{
     min-height: 100vh;
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     
 }
@@ -67,7 +70,7 @@ nav div a img{
 .inicio__cont--h1{
     text-align: center;
     color: whitesmoke;
-    margin: 0 0 80px 0;
+    margin: 110px 0 0 0;
 }
 
 .inicio__cont--h1 h1{
@@ -80,3 +83,28 @@ span{
 }
 
 /* Fin Main Section */
+
+/*----Separador----*/
+
+.separador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    background-color: #F4C7AB ;
+    height: 40px;
+    width: 100%;
+    margin-top: -40px;
+    position: relative;
+    opacity: .8;
+    z-index: 50;
+}
+.separador img{
+    height: 30px;
+}
+
+.separador img:hover{
+    transform: scaleX(1.06) scaleY(1.06);
+}
+/*----Fin separador----*/

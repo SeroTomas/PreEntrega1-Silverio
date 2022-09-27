@@ -1,0 +1,52 @@
+/*----FONTS----*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/*----Fin FONTS----*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Main section */
+
+#inicio{
+    background-image: url(imagenes/fondo-main.jpg);
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    z-index: 1;
+}
+
+#inicio::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+.inicio__cont--h1{
+    font-size: 1.3rem;
+    color: whitesmoke;
+    margin: 0 0 70px 0;
+    text-transform: uppercase;
+}
+.contenedor{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* Fin Main Section */

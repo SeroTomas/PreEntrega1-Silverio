@@ -165,7 +165,7 @@ span{
 /* Cards */
 
 .cont__serv--card{
-    width: 200px;
+    width: 250px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -183,7 +183,7 @@ span{
     border-radius: 5px 5px 0 0;
 }
 .card--img img{
-    height: 70px;
+    height: 85px;
 }
 
 .card--content{
@@ -199,7 +199,8 @@ span{
 }
 
 .card--content p{
-    font-size: 1.4rem;
+    padding: 0 10px 25px 10px;
+    font-size: 1.5rem;
 }
 
 

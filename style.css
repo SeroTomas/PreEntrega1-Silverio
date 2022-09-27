@@ -141,9 +141,12 @@ span{
 }
 
 .cont__us p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
     text-align: center;
     font-size: 1.6rem;
-    padding: 0 25px 30px 25px;
+    padding: 0 25px 10px 25px;
 }
 
 /*----Fin sobre nosotros----*/
@@ -208,3 +211,37 @@ span{
 /* Fin Cards */
 
 /* Fin Servicios */
+
+/* Media Query Tablet */
+
+@media only screen and (min-width:768px) {
+
+    .contenedor{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        
+    }
+    
+    .inicio__cont--h1{
+        text-align: left;
+        color: whitesmoke;
+        margin: 0 0 0 60px;
+    }
+
+    .cont__serv{
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        row-gap: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+/* Fin Media Query Tablet */

@@ -17,9 +17,16 @@ html {
     font-family: 'Comfortaa', sans-serif;
 }
 
-h2 span{
+.titulo-section span{
     font-size: 3rem;
     color: black;
+}
+
+.titulo-section{
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px 0 30px 0;
 }
 
 /*FIN GENERAL */
@@ -109,7 +116,12 @@ span{
     background-color: #F4C7AB ;
     height: 40px;
     width: 100%;
+    margin-top: -40px;
+    position: relative;
+    opacity: .8;
+    z-index: 50;
 }
+
 .separador img{
     height: 30px;
 }
@@ -128,12 +140,6 @@ span{
     justify-content: center;   
 }
 
-.cont__us h2{
-    font-size: 2.5rem;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 30px 0 30px 0;
-}
 .cont__us p{
     text-align: center;
     font-size: 1.6rem;

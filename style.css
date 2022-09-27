@@ -27,6 +27,9 @@ html {
     background-color: rgba(178, 184, 163, .9);
     transition: .3s ease-in-out;
 }
+.nav li a{
+    font-size: 1.5rem;
+}
 
 nav div a img{
     height: 50px;

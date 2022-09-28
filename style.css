@@ -26,7 +26,7 @@ html {
     font-size: 2.5rem;
     text-align: center;
     text-transform: capitalize;
-    padding: 30px 0 30px 0;
+    padding: 50px 0 50px 0;
 }
 
 /*FIN GENERAL */
@@ -46,7 +46,7 @@ html {
     transition: .3s ease-in;
 }
 .nav li a{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 nav div a img{
@@ -91,11 +91,11 @@ nav div a img{
 .inicio__cont--h1{
     text-align: center;
     color: whitesmoke;
-    margin: 130px 0 0 0;
+    margin: 120px 0 0 0;
 }
 
 .inicio__cont--h1 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
@@ -146,7 +146,7 @@ span{
     max-width: 1000px;
     text-align: center;
     font-size: 1.6rem;
-    padding: 0 25px 10px 25px;
+    padding: 0 25px 0 25px;
 }
 
 /*----Fin sobre nosotros----*/
@@ -162,7 +162,7 @@ span{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-items: center;
-    row-gap: 25px;
+    row-gap: 60px;
 }
 
 /* Cards */
@@ -180,9 +180,9 @@ span{
     text-align: center;
     width: 100%;
     padding: 20px 20px;
-    border-top: 1px black solid;
-    border-left: 1px black solid;
-    border-right: 1px black solid;
+    border-top: 1px rgb(178, 184, 163) solid;
+    border-left: 1px rgb(178, 184, 163) solid;
+    border-right: 1px rgb(178, 184, 163) solid;
     border-radius: 5px 5px 0 0;
 }
 .card--img img{
@@ -245,3 +245,25 @@ span{
 }
 
 /* Fin Media Query Tablet */
+
+
+@media only screen and (min-width:1600px){
+    
+
+    nav{
+        padding-left: 260px !important;
+        padding-right: 260px !important;
+    }
+
+    .cont__serv{
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 1600px;
+    }
+
+    .inicio__cont--h1{
+        color: whitesmoke;
+        margin-left: 260px;
+    }
+
+}

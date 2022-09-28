@@ -159,6 +159,7 @@ h1 span{
     grid-template-rows: auto;
     justify-items: center;
     row-gap: 60px;
+    padding-bottom: 50px;
 }
 
 /* Cards */
@@ -207,6 +208,41 @@ h1 span{
 /* Fin Cards */
 
 /* Fin Servicios */
+
+/* Footer */
+
+.cont__footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F4C7AB;
+    width: 100%;
+    padding: 3px 3px;
+    justify-content: space-evenly;
+}
+
+.cont__footer img:hover{
+    transform: scaleX(1.04) scaleY(1.04);
+}
+
+.cont__footer div{
+    padding-bottom: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.cont__footer p{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.cont__footer img{
+    height: 30px;
+}
+
+
+/* Fin Footer */
 
 /* Media Query Tablet */
 
@@ -258,6 +294,10 @@ h1 span{
 
     .card--content p{
         font-size: 2rem;
+    }
+
+    .cont__footer{
+        flex-direction: row;
     }
 
     
@@ -315,7 +355,6 @@ h1 span{
 
 
 @media only screen and (min-width:1600px){
-    
 
     nav{
         padding-left: 200px !important;
@@ -336,5 +375,4 @@ h1 span{
         color: whitesmoke;
         margin-left: 260px;
     }
-
 }

@@ -17,15 +17,11 @@ html {
     font-family: 'Comfortaa', sans-serif;
 }
 
-.titulo-section span{
-    font-size: 3rem;
-    color: black;
-}
 
 .titulo-section{
     font-size: 2.5rem;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 50px 0 50px 0;
 }
 
@@ -95,13 +91,13 @@ nav div a img{
     margin: 120px 0 0 0;
 }
 
+h1 span{
+    color: #F4C7AB;
+}
+
 .inicio__cont--h1 h1{
     font-size: 3rem;
     text-transform: uppercase;
-}
-
-span{
-    color: #F4C7AB;
 }
 
 /* Fin Main Section */
@@ -144,7 +140,6 @@ span{
 .cont__us p{
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
     text-align: center;
     font-size: 1.6rem;
     padding: 0 25px 0 25px;
@@ -232,34 +227,109 @@ span{
         margin: 0 0 0 60px;
     }
 
+    nav{
+        padding: 10px 40px 10px 40px!important;
+    }
+
     .cont__serv{
-        max-width: 1000px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         justify-items: center;
-        row-gap: 25px;
+        row-gap: 50px;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .cont__us p{
+        font-size: 2rem;
+    }
+
+    .titulo-section{
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 50px 0 50px 0;
+    }
+
+    .card--content h3{
+        font-size: 2.5rem;
+    }
+
+    .card--content p{
+        font-size: 2rem;
+    }
+
+    
     
 }
 
 /* Fin Media Query Tablet */
+
+@media only screen and (min-width:1200px){
+ 
+    nav{
+        padding: 10px 60px 10px 60px!important;
+    }
+    
+    nav li{
+        padding: 0 5px 0 5px;
+    }
+
+    .inicio__cont--h1 h1{
+        font-size: 3.2rem;
+    }
+
+    .cont__serv{
+        max-width: 1000px;
+    }
+
+    .cont__us p{
+        max-width: 1000px;
+        font-size: 2rem;
+    }
+
+    .card--content h3{
+        font-size: 2.5rem;
+    }
+
+    .card--content p{
+        font-size: 2rem;
+    }
+
+    .cont__serv--card{
+        width: 300px;
+    }
+
+    
+    .titulo-section{
+        font-size: 3.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 50px 0 50px 0;
+    }
+
+
+
+}
 
 
 @media only screen and (min-width:1600px){
     
 
     nav{
-        padding-left: 260px !important;
-        padding-right: 260px !important;
+        padding-left: 200px !important;
+        padding-right: 200px !important;
+    }
+
+    .cont__us p{
+        max-width: 1600px;
     }
 
     .cont__serv{
         display: flex;
         justify-content: space-evenly;
-        min-width: 1600px;
+        max-width: 1600px;
     }
 
     .inicio__cont--h1{

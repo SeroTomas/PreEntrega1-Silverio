@@ -297,9 +297,13 @@ h1 span{
     }
 
     .cont__footer{
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
     }
 
+    
     
     
 }

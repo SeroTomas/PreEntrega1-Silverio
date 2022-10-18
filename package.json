@@ -1,0 +1,22 @@
+{
+  "name": "preentrega2-silverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeroTomas/PreEntrega2-Silverio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeroTomas/PreEntrega2-Silverio/issues"
+  },
+  "homepage": "https://github.com/SeroTomas/PreEntrega2-Silverio#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

@@ -1,0 +1,23 @@
+.separador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    background-color: #F4C7AB ;
+    height: 40px;
+    width: 100%;
+    margin-top: -40px;
+    position: relative;
+    opacity: .8;
+    z-index: 50;
+
+    img{
+        height: 30px;
+        
+        &:hover{
+            transform: scaleX(1.06) scaleY(1.06);
+        }
+    }
+}
+

@@ -1,0 +1,53 @@
+@media only screen and (min-width:1200px){
+ 
+    .nav{
+        padding: 10px 60px 10px 60px!important;
+
+        &:hover{
+            padding: 20px 60px 20px 60px!important;
+        }
+
+        li{
+            padding: 0 5px 0 5px;
+        }
+    }
+
+    .inicio__cont--h1 {
+        h1{
+            font-size: 3.2rem;
+        }
+    }
+
+    .cont__serv{
+        max-width: 1000px;
+    }
+
+    .cont__us{
+        p{
+            max-width: 1000px;
+            font-size: 2rem;
+        }
+    }
+
+    .card--content {
+        h3{
+            font-size: 2.5rem;
+        }
+
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    .cont__serv--card{
+        width: 300px;
+    }
+
+    .titulo-section{
+        font-size: 3.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 50px 0 50px 0;
+    }
+
+}

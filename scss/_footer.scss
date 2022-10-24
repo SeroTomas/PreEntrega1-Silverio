@@ -1,0 +1,30 @@
+.cont__footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F4C7AB;
+    width: 100%;
+    padding: 3px 3px;
+    justify-content: space-evenly;
+
+    div{
+        padding-bottom: 5px;
+        display: flex;
+        gap: 10px;
+    }
+
+    p{
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: black;
+    }
+
+    img{
+        height: 30px;
+
+        &:hover{
+            transform: scaleX(1.04) scaleY(1.04);
+        }
+    }
+}
+

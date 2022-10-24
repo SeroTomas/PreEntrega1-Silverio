@@ -1,0 +1,33 @@
+@media only screen and (min-width:1600px) {
+
+    .nav {
+        padding: 10px 200px 10px 200px !important;
+
+        &:hover{
+            padding: 20px 200px 20px 200px !important;
+        }
+    }
+
+
+    .cont__us {
+        p {
+            max-width: 1600px;
+        }
+    }
+    
+    .cont__serv {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 1600px;
+    }
+
+    .contenedor {
+        div {
+            margin-left: 260px;
+
+            h1 {
+                color: whitesmoke;
+            }
+        }
+    }
+}

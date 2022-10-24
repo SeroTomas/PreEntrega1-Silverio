@@ -1,0 +1,40 @@
+.cont__serv--card{
+    width: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .card--img{
+        text-align: center;
+        width: 100%;
+        padding: 20px 20px;
+        border-top: 1px rgb(178, 184, 163) solid;
+        border-left: 1px rgb(178, 184, 163) solid;
+        border-right: 1px rgb(178, 184, 163) solid;
+        border-radius: 5px 5px 0 0;
+
+        img{
+            height: 85px;
+        }
+        }
+    }
+
+    .card--content{
+        background-color: rgb(178, 184, 163);
+        text-align: center;
+        border-radius: 0 0 5px 5px;
+        padding: 0 5px 0 5px;
+        
+        h3{
+            padding: 10px 20px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        p{
+            padding: 0 10px 25px 10px;
+            font-size: 1.5rem;
+        }
+}

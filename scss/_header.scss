@@ -1,0 +1,29 @@
+.nav {
+
+    background-color: rgba(178, 184, 163, .5);
+    position: fixed !important;
+    z-index: 1030;
+    width: 100%;
+    transition: .2s ease-out;
+    padding: 20px 0 20px 0;
+
+        &:hover {
+            background-color: rgba(178, 184, 163, .9);
+            transition: .2s ease-in;
+        }
+
+    li{
+        a{
+            font-size: 2rem;
+        }
+
+    }
+
+    div{
+        a{
+            img {
+                height: 50px;
+            }
+        } 
+    }
+}

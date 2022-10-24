@@ -1,0 +1,66 @@
+@media only screen and (min-width:768px) {
+
+    .contenedor{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        
+        div{
+            margin: 0 0 0 60px;
+            h1{
+                text-align: left;
+                color: whitesmoke; 
+            }
+        }
+        
+    }
+    
+    .nav{
+        padding: 10px 40px 10px 40px!important;
+    }
+
+    .cont__serv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        row-gap: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cont__us {
+        p{
+            font-size: 2rem;
+        }
+    }
+        
+
+    .titulo-section{
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 50px 0 50px 0;
+    }
+
+    .card--content {
+
+        h3{
+            font-size: 2rem;
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .cont__footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+  
+}

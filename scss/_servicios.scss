@@ -1,0 +1,14 @@
+#servicios{
+    background-color: #FFF5EB ;
+}
+
+.cont__serv{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 60px;
+    padding-bottom: 50px;
+}
+
+
